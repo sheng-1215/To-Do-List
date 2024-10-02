@@ -1,0 +1,84 @@
+        body {
+            background-color: #f4f6f9;
+            font-family: 'Roboto', sans-serif;
+            overflow-x: hidden;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+            transition: transform 0.2s;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        h1 {
+            color: #333;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .task-input {
+            margin-bottom: 20px;
+        }
+        .badge-success {
+            background-color: #28a745;
+        }
+        .list-group-item {
+            border: none;
+            padding: 15px;
+            transition: background-color 0.3s, transform 0.2s;
+            border-radius: 8px;
+        }
+        .list-group-item:hover {
+            background-color: #e9ecef;
+            transform: translateY(-2px);
+        }
+        .btn-success {
+            margin-left: 10px;
+            transition: background-color 0.2s;
+        }
+        .btn-success:hover {
+            background-color: #218838;
+        }
+        .no-tasks {
+            text-align: center;
+            font-style: italic;
+            color: #6c757d;
+        }
+        .logout-btn {
+            background-color: #dc3545;
+            color: white;
+            border: none;
+            transition: background-color 0.2s;
+        }
+        .logout-btn:hover {
+            background-color: #c82333;
+        }
+        .input-group input {
+            border: 2px solid #007bff;
+            border-radius: 4px;
+            transition: border-color 0.3s;
+        }
+        .input-group input:focus {
+            border-color: #0056b3;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+        .logout-section {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #6c757d;
+        }
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
